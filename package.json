@@ -1,0 +1,24 @@
+{
+  "name": "api-restaurant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "API para gerenciar pedidos das mesas de um restaurante",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --import tsx ./node_modules/.bin/knex"
+  },
+  "author": "Daniel Vieira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.19.2",
+    "knex": "3.1.0",
+    "sqlite3": "5.1.7",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/node": "20.14.12",
+    "tsx": "4.16.2",
+    "typescript": "5.5.4"
+  }
+}
